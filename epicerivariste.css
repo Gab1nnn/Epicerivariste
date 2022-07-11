@@ -10,18 +10,27 @@ h1.titre {
 	color: white;
 	}
 	
-td { 
+td.produit { 
 	text-align: center;
 	font-weight: bold;
 	border: 1px solid black;
 	font-size: 20px;
 	}
 	
-img {
+	
+img.produit {
 	width: 300px;
 	}
 	
-table {
+img.logo {
+	width: 90px;
+	}
+
+img.cookie {
+	width: 90px;
+	}
+	
+table.produit {
 	margin: auto;
 	margin-top: 30px;
 	border: 1px solid black;
@@ -37,12 +46,10 @@ div.logo {
 div.h1 {
 	background-color: black;
 	height: 90px;
-	margin-left: 25%;
-	margin-right: 25%;
 	}
 
 div.produit {
-	margin: auto;
+	margin :auto
 	}
 	
 div.vide {
@@ -50,10 +57,11 @@ div.vide {
 	margin: 20px;
 	}
 
-body {
+
+div.body {
 	background-image: url("background.png");
 	background-size: cover;
-        background-repeat: no-repeat;
+	background-repeat: no-repeat;
 	}
 
 h1 {
@@ -70,4 +78,32 @@ p {
 
 li {
 	display: inline-block;
+	}
+	
+div.resaux {
+	height: 300px;
+	margin: 20px;
+	background-color: white;
+	}
+
+img.resaux {
+	width: 50px;
+	}
+
+table.titre {
+	width:100;
+	margin :auto;
+	}
+
+table.resaux {
+	width:100;
+	margin-right :auto;
+	margin-left :auto;
+	margin-top: 20px
+	}
+	
+p.resaux {
+	font-weight: bold;
+	border: 10px solid white;
+	font-size: 20px;
 	}
