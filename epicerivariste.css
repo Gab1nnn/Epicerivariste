@@ -42,8 +42,7 @@ div.h1 {
 	}
 
 div.produit {
-	margin-left: 500px;
-	margin-right:500px;
+	margin: auto;
 	}
 	
 div.vide {
@@ -54,6 +53,7 @@ div.vide {
 body {
 	background-image: url("background.png");
 	background-size: cover;
+        background-repeat: no-repeat;
 	}
 
 h1 {
